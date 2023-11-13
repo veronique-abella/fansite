@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_1">             
+           <li><a href="index.html" aria label="lien vers home">Accueil</a></li>
+           <li><a href="histoire.html" aria label="lien vers entreprise">Histoire</a></li>
+           <li><a href="recettes.html" aria label="lien vers réalisations">Recettes</a></li>
+           <li><a href="contact.html" aria label="lien vers contact">Contact</a></li>                    
+       </nav>
+    </header>
+    <main class="contact">
+        <section class="formulaire">
+            <h1>Contactez-nous</h1>       
+            <form class="form" action="/contact" method="post">
+                <label for="gender-select"><b>Mr. ou Mme. :</b></label>
+
+                <select gender="gender" id="gender-select">
+                <option value="">Mr. ou Mme.</option>
+                <option value="monsieur">Mr.</option>
+                <option value="madame">Mme.</option>
+                </select>
+
+                <label for="nom"><b>Nom:</b></label>
+                <input type="text" id="name" name="user_name"/>
+              
+                              
+                <label for="prenom"><b>Prénom :</b></label>
+                <input type="text" id="firstname" name="user_firstname"/>
+                
+               
+                <label for="mail"><b>Mail :</b></label>
+                <input type="mail" id="mail" name="user_mail"/>
+               
+                <label for="msg"><b>Message :</b></label>
+                <textarea id="msg" name="user_message"></textarea>
+            
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <label for="confidentialite">J'accepte les politiques de confidentialité de l'entreprise</label>
+                </div>
+                <div class="bouton">
+                    <button>Envoyer</button>
+                </div>
+        </form>
+    </section>
+    <br>
+</main>
+    <footer>
+        <nav class="nav_2">             
+            <li><a href="index.html" aria label="lien vers home">Accueil</a></li>
+            <li><a href="histoire.html" aria label="lien vers entreprise">Histoire</a></li>
+            <li><a href="recettes.html" aria label="lien vers réalisations">Recettes</a></li>
+            <li><a href="contact.html" aria label="lien vers contact">Contact</a></li>                    
+        </nav>
+        <br>
+        ©Copyright 2023
+    </footer>
+</body>
+</html>

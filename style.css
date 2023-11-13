@@ -1,0 +1,730 @@
+/*Polices*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=DM+Serif+Display&family=Noticia+Text&display=swap');
+
+/* Menu de naviguation */
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-top: 0;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+}
+
+.nav_1 {
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav_1 li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    list-style: none;
+    color: white;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(206, 156, 20);;
+}
+
+                            /*INDEX*/
+
+/*Background*/
+
+.fe {
+    background-image: url(images/bgindex.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+}
+body{
+   background-color: black;
+}
+
+/*Haut de la page*/
+
+.titreindex{
+    font-family: 'Abril Fatface', serif;
+    font-size: 110px;
+    color: rgb(206, 156, 20);
+    margin-top: 20px;
+}
+
+.sstitreindex{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+/* Description*/
+
+.contenuindex h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+
+.contenuindex p{
+    font-family:'Bodoni Moda', serif;
+    color: white;
+    width: 350px;
+    text-align: justify;
+}
+
+
+
+/*Actualités*/
+
+.actualites h2{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+li{
+    font-family: 'Bebas Neue', sans-serif;
+    list-style-type: disc;
+    color: white;
+}
+
+
+                            /*HISTOIRE*/
+
+/*Titre*/
+
+.titrehistoire {
+    font-family: 'Abril Fatface', serif;
+    font-size: 500%;
+    color: rgb(206, 156, 20);
+    margin-top: 0;
+    text-align: center;
+    margin-top: 30px;    
+}
+          
+/*Background*/
+
+.fehistoire {
+    background-image: url(images/bghistoire2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+/*Contenu*/
+
+.contenuhistoire h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+                            
+.contenuhistoire p {
+    font-family:'Bodoni Moda', serif;
+    color: white;
+    width: 500px;
+    text-align: justify;
+}
+                                                       
+.histoire {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+                            
+.histoire img {
+    object-fit: contain;
+    transition: transform 0.2s, box-shadow0.2s;    
+}
+                            
+.histoire img:hover {
+    transform: scale(1.2);
+                                
+}
+
+                            /*Recettes*/
+
+/* Background*/
+
+.ferecettes{
+    background-image: url(images/bouteilles2.png);
+    background-size: cover;
+}
+
+/* Titre*/
+
+.titrerecettes h1{
+    font-family: 'Abril Fatface', serif;
+    font-size: 600%;
+    color: rgb(206, 156, 20);
+    margin-top: 0;
+    text-align: center;
+    margin-top: 30px;  
+}
+
+/*Contenu*/
+
+.recettes1 h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.recettes2 h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.recettes1 img {
+    max-width: 200px;
+    border-radius: 100%;
+    border-style:double;
+    border-color: white;
+    transition: transform 0.2s, box-shadow0.2s;     
+}
+
+.recettes1 img:hover {
+    transform: scale(1.1);                                
+}
+
+.recettes2 img {
+    max-width: 200px;
+    border-radius: 100%;
+    border-style:double;
+    border-color: white;
+    transition: transform 0.2s, box-shadow0.2s;     
+}
+
+.recettes2 img:hover {
+    transform: scale(1.1);                                
+}
+
+.recettes1 {
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    padding: 10%;
+    justify-content: center;
+}
+
+.recettes2 {
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+                            /*Pages des recettes*/
+
+/*Gin Tonic*/
+
+.pggintonic {
+    background-image: url(images/gintonic2.png);
+    background-size: cover;
+}
+
+.titregintonic h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 600%;
+    color: rgb(206, 156, 20);
+    margin-top: 0;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.inggintonic h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.inggintonic li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+} 
+
+.inggintonic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepgintonic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepgintonic h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255);    
+}
+
+.prepgintonic p {
+    font-family:'Bodoni Moda', serif;
+    font-size: 30px;
+    color: white;
+    width: 1000px;
+    text-align: justify;
+}
+
+/*Gin Lavande*/
+
+.pgginlavande {
+    background-image: url(images/lavande2.png);
+    background-size: cover;
+}
+
+.titreginlavande h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 600%;
+    color: rgb(206, 156, 20);
+    margin-top: 0;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.ingginlavande h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.ingginlavande li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.ingginlavande {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepginlavande {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepginlavande h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255); 
+}
+
+.prepginlavande p {
+    font-family:'Bodoni Moda', serif;
+    font-size: 30px;
+    color: white;
+    width: 1000px;
+    text-align: justify;
+}
+
+/*Gin Canneberge*/
+
+.pggincanneberge {
+    background-image: url(images/canneberge3.png);
+    background-size: cover;
+}
+
+.titregincanneberge h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 600%;
+    color: rgb(206, 156, 20);
+    margin-top: 0;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.inggincanneberge h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.inggincanneberge li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.inggincanneberge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepgincanneberge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepgincanneberge h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255); 
+}
+
+.prepgincanneberge p {
+    font-family:'Bodoni Moda', serif;
+    font-size: 30px;
+    color: white;
+    width: 1000px;
+    text-align: justify;
+}
+
+/*Gin Orange*/
+
+.pgginorange{
+    background-image: url(images/orange3.png);
+    background-size: cover;
+}
+
+.titreginorange h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 600%;
+    color: rgb(206, 156, 20);
+    margin-top: 0;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.ingginorange h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.ingginorange li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.ingginorange {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepginorange {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepginorange h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255); 
+}
+
+.prepginorange p {
+    font-family:'Bodoni Moda', serif;
+    font-size: 30px;
+    color: white;
+    width: 1000px;
+    text-align: justify;
+}
+
+/*Blue Gin Tonic*/
+
+
+.pgginblue{
+    background-image: url(images/orange3.png);
+    background-size: cover;
+}
+
+.titreginblue h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 600%;
+    color: rgb(206, 156, 20);
+    margin-top: 0;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.ingginblue h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.ingginblue li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.ingginblue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepginblue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepginblue h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255); 
+}
+
+.prepginblue p {
+    font-family:'Bodoni Moda', serif;
+    font-size: 30px;
+    color: white;
+    width: 1000px;
+    text-align: justify;
+}
+
+                            /*Formulaire de contact*/
+
+.contact {
+    background-image: url(images/contact3.jpg);
+    background-size: cover;
+}                            
+                            
+.formulaire h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', serif;
+    font-size: 90px;
+    color: rgb(206, 156, 20);
+}
+                            
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 37%;
+    margin-top: 2rem;
+    border-style: double;
+    border-radius: 5px;    
+    background-color: rgba(206, 156, 20, 0.467);
+    padding: 1rem;
+    min-height: 55vh;
+    gap: 1rem;
+    box-shadow: 5px 10px 20px 4px;
+    background-image: url(images/);
+}
+                            
+.contact b{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 100%;
+    color: white;
+}
+                            
+.form li{
+    list-style-type: none;
+}
+                            
+body{
+    background-image: url(images/bgcontact.jpg);
+    background-size: cover;
+}
+                            
+.checkbox {
+    font-family: 'Poiret One', sans-serif;
+    color: white;
+}
+                            
+.bouton {
+    text-align: center;
+}
+
+/*Bas de page*/
+
+footer{
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        padding: 5px;
+        color: white;
+        font-family: 'Bebas Neue', sans-serif;
+        margin-top: 5rem;
+        bottom: 0;
+}
+
+.nav_2 {
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav_2 li {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    list-style: none;
+    color: white
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 460px){
+    .index {
+        margin-top: 7rem;
+    }       
+
+    .nav_1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: left;
+    }
+
+    .nav_2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: left;
+    }
+
+    .histoire {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: space-between;
+        align-content: stretch;
+    }
+    
+    .titrerecettes h1{
+        font-size: 80px
+    };
+
+    .recettes1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recettes2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titregintonic h1 {
+        margin-top: 18rem;
+        font-size: 80px;
+    }
+
+    .prepgintonic, .prepgintonic p {
+        width: 100%;
+    }
+
+  .titreginlavande h1 {
+        margin-top: 18rem;
+        font-size: 80px;
+  }
+
+  .prepginlavande, .prepginlavande p {
+        width: 100%;
+  }
+
+  .titregincanneberge h1{
+        margin-top: 18rem;
+        font-size: 80px;
+  }
+
+  .prepgincanneberge, .prepgincanneberge p {
+        width: 100%;
+  }
+
+  .titreginorange h1 {
+        margin-top: 18rem;
+        font-size: 80px;
+  }
+
+  .prepginorange, .prepginorange p {
+        width: 100%;  
+  }
+
+  .titreginblue h1 {
+        margin-top: 18rem;
+        font-size: 80px;          
+  }
+
+  .prepginblue, .prepginblue p {
+        width: 100%; 
+  }
+
+  .formulaire h1 {
+        font-size: 67px;
+  }
+
+  .form {
+    margin: 0 5%;
+    width: 70%;
+  }
+
+}
+
+@media (max-width: 820px) {
+    
+    .contenuhistoire {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .recettes1 {
+        gap: 95px;
+    }
+
+    .prepgintonic, .prepgintonic p {
+        width: 100%;
+    }
+
+    .prepginlavande, .prepginlavande p {
+        width: 100%;
+    }
+
+    .prepgincanneberge, .prepgincanneberge p {
+        width: 100%;
+    }
+
+    .prepginorange, .prepginorange p {
+        width: 100%;
+    }
+
+    .prepginblue, .prepginblue p {
+        width: 100%;
+    }
+
+    .form {
+        margin: 0 22%;
+        width: 50%;
+      }
+}
